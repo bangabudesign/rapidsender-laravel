@@ -5,7 +5,7 @@ Send WhatsApp notifications via RapidSender API using Laravel Notification syste
 ## Installation
 
 ```
-composer require vendor/rapidsender-laravel
+composer require bangabudesign/rapidsender-laravel
 ```
 
 ## Configuration
