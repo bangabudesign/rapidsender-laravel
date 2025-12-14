@@ -1,5 +1,5 @@
 {
-  "name": "vendor/rapidsender-laravel",
+  "name": "bangabudesign/rapidsender-laravel",
   "description": "Laravel Notification Channel for RapidSender WhatsApp API",
   "type": "library",
   "keywords": [
