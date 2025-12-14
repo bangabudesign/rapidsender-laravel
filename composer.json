@@ -1,0 +1,35 @@
+{
+  "name": "vendor/rapidsender-laravel",
+  "description": "Laravel Notification Channel for RapidSender WhatsApp API",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "rapidsender",
+    "email",
+    "whatsapp",
+    "notifications"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abu Bakar Halid",
+      "email": "bangabugrafis@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\RapidSender\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vendor\\RapidSender\\RapidSenderServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}
